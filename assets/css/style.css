@@ -40,7 +40,7 @@ input {
 }
 
 .lside , .rside {
-    background-color: orange;
+    background-color: white;
     height: 100%;
     width: 50%;
     transition: all 0.3s linear;
@@ -63,7 +63,7 @@ input {
 }
 
 .button:hover p {
-    color: white;
+    color: orange;
 }
 
 /* ----------------- Media Queries ------------------ */
