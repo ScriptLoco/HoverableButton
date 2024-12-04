@@ -42,7 +42,7 @@ input {
 .lside , .rside {
     background-color: orange;
     height: 100%;
-    width: 0;
+    width: 50%;
     transition: all 0.3s linear;
 }
 
@@ -50,7 +50,7 @@ input {
 .rside {float: right; border-radius: 0 10px 10px 0;}
 
 .button:hover div {
-    width: 50%;
+    width: 0;
 }
 
 .button p {
