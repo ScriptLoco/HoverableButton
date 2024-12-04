@@ -1,0 +1,80 @@
+/* Utilities */
+.br_12 {border-radius: 12px;}
+
+/* -------------------- body -------------------- */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------- Form -------------------- */
+form {
+    width: 60%;
+    max-width: 800px;
+    height: 50%;
+    box-shadow: 0 0 4px 0 lightgray, 10px 10px 0 0 orange;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1e011e;
+}
+
+input {
+    width: 80%;
+    padding: 20px 0;
+    border: 1.5px solid lightgray;
+    outline: none;
+    text-indent: 15px;
+}
+
+/* -------------------- button -------------------- */
+.button {
+    width: 60%;
+    height: 50px;
+    border: 1px solid orange;
+    position: relative;
+    cursor: pointer;
+}
+
+.lside , .rside {
+    background-color: orange;
+    height: 100%;
+    width: 0;
+    transition: all 0.3s linear;
+}
+
+.lside {float: left; border-radius: 10px 0 0 10px;}
+.rside {float: right; border-radius: 0 10px 10px 0;}
+
+.button:hover div {
+    width: 50%;
+}
+
+.button p {
+    width: 100%;
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+.button:hover p {
+    color: white;
+}
+
+/* ----------------- Media Queries ------------------ */
+@media screen and (max-width:800px) {
+    form {
+        width: 80%;
+        height: 30%;
+    }
+
+    input {
+        width: 90%;
+        padding: 15px 0;
+    }
+}
