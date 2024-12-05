@@ -40,7 +40,7 @@ input {
 }
 
 .lside , .rside {
-    background-color: white;
+    background-color: orange;
     height: 100%;
     width: 50%;
     transition: all 0.3s linear;
