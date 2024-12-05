@@ -55,7 +55,7 @@ input {
 
 .button p {
     width: 100%;
-    color: orange;
+    color: white;
     font-weight: bold;
     position: absolute;
     text-align: center;
@@ -70,7 +70,7 @@ input {
 @media screen and (max-width:800px) {
     form {
         width: 80%;
-        height: 30%;
+        height: 40%;
     }
 
     input {
